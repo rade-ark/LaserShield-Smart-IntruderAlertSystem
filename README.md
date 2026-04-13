@@ -62,7 +62,7 @@ $$V_{out} = V_{in} \cdot \frac{R_2}{R_1 + R_2} = 5V \cdot \frac{2k\Omega}{1k\Ome
 2.  **Calibrate the Sensor:** Power the Laser and LDR. Adjust the LDR module's onboard potentiometer until the status LED toggles cleanly when the beam is blocked.
 3.  **Configure Phone Number:** Open the provided Arduino sketch and update the recipient number:
     ```cpp
-    mySerial.println("AT+CMGS=\"+918454080146\""); // Replace with your number
+    mySerial.println("AT+CMGS=\"+91123456789\""); // Replace with your number
     ```
 4.  **Upload:** Upload the code to your Arduino UNO.
 
